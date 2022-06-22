@@ -1,0 +1,153 @@
+body {
+    background-color: rgb(32, 33, 36);
+    color: rgb(189, 193, 198);
+    padding: 1%;
+}
+
+h1 {
+    text-align: center;
+    font-variant: small-caps;
+    letter-spacing: 3px;
+}
+
+h2,
+h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h4 {
+    display: block;
+    border-bottom: 1px solid rgb(189, 193, 198);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+input {
+    color: rgb(189, 193, 198);
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(189, 193, 198);
+    height: 1.5em;
+    width: 100%;
+    padding: 0;
+}
+
+input[type="number"] {
+    width: 2.5em;
+    justify-self: end;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+button {
+    padding: 0.5em 1em;
+    justify-self: center;
+    cursor: pointer;
+    background-color: rgb(15, 95, 192);
+    color: rgb(189, 193, 198);
+    font-variant: small-caps;
+    font-size: 100%;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+    border: default;
+    border-color: rgb(37, 59, 85);
+}
+
+button:hover {
+    background-color: rgb(11, 64, 129);
+}
+
+.grid {
+    display: grid;
+    column-gap: 2em;
+}
+
+.col-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.menu {
+    display: grid;
+    max-width: 40em;
+    margin: auto;
+}
+
+.menu-container {
+    display: grid;
+    justify-items: center;
+}
+
+.menu-section {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.inputs-container {
+    display: grid;
+    row-gap: 0.5em;
+    column-gap: 1em;
+}
+
+.input-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.board {
+    display: grid;
+    gap: 5px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.board-slider-container {
+    display: grid;
+    column-gap: 0.5em;
+    grid-template-columns: auto 1fr;
+    max-width: 30em;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.field {
+    border: 1px solid rgb(189, 193, 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vmin;
+    width: 7vmin;
+
+}
+
+.field:hover {
+    background-color: rgba(255, 255, 255, .05);
+}
+
+.animal {
+    display: flex;
+    border-radius: 50%;
+    width: 85%;
+    height: 85%;
+    justify-content: center;
+    align-items: center;
+}
+
+.antelope {
+    background-color: rgb(209, 148, 87);
+}
+
+.crocodile {
+    background-color: darkolivegreen;
+}
+
+.elephant {
+    background-color: dimgray;
+}
+
+.lion {
+    background-color: goldenrod;
+}

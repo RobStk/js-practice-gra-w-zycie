@@ -1,0 +1,25 @@
+{
+  "name": "gra-w-zycie",
+  "version": "1.0.0",
+  "description": "Gra w życie (ocena 4-5)\r Wczytaj plansze o zmiennych rozmiarach. Zasymuluj działanie 10 tur. Wyświetl\r planszę po każdej turze. Na planszy mogą występować następujące zwierzęta:\r 1. Lew (L,l) - samiec dużą literą\r 2. Krokodyl (K,k)\r 3. Słoń (S,s)\r 4. Antylopa (A,a)\r Tura polega na wykonaniu następujących czynności:\r 1. Ruch\r 2. Jedzenie \r 3. Rozmnażanie",
+  "main": "index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobStk/gra-w-zycie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobStk/gra-w-zycie/issues"
+  },
+  "homepage": "https://github.com/RobStk/gra-w-zycie#readme",
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
+}

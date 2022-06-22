@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js" type="module"></script>
+  <title>Gra w życie</title>
+</head>
+
+<body>
+  <h1>Gra w życie</h1>
+  <template id="menu">
+    <form class="menu">
+      <div class="menu-container">
+        <div class="menu-section resizable grid col-2">
+          <div>
+            <h4>Rundy</h4>
+            <div class="inputs-container">
+              <div class="input-row">
+                <label>liczba rund</label>
+                <input type="number" min="1" id="menuRoundsInput">
+              </div>
+              <div class="input-row">
+                <label>prędkość</label>
+                <input type="range" min="0" max="10" id="menuSpeedInput">
+              </div>
+            </div>
+          </div>
+          <div>
+            <h4>Rozmiar planszy</h4>
+            <div class="inputs-container">
+              <div class="input-row">
+                <label>poziomo</label>
+                <input type="number" min="1" id="menuXSizeInput">
+              </div>
+              <div class="input-row">
+                <label>pionowo</label>
+                <input type="number" min="1" id="menuYSizeInput">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-section">
+          <div class="grid resizable col-2">
+            <h3>Liczba zwierząt</h3>
+            <input type="number" min="1" id="menuAnimalsAllInput">
+          </div>
+          <div class="menu-animals-container resizable grid col-2">
+
+          </div>
+        </div>
+      </div>
+      <button type="submit">start</button>
+    </form>
+  </template>
+
+</body>
+
+</html>

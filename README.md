@@ -2,11 +2,25 @@
 
 Zadanie treningowe pochodzące z kursu Programowanie Obiektowe prowadzonego w ramach studiów inżynierskich na kierunku Technologie Informatyczne.
 
+## Spis treści
+- [Opis](#opis)
+- [Zrzuty ekranu](#zrzuty-ekranu)
+- [Założenia dodatkowe](#założenia-dodatkowe)
+- [Zastosowane technologie i narzędzia](#zastosowane-technologie-i-narzędzia)
+- [Czego potrzebuję, by odpalić kod?](#czego-potrzebuję-by-odpalić-kod)
+
+## Opis
+
 Mimo swojej nazwy jest to bardziej symulacja niż gra. Pierwotnie zadanie miało wykazać umiejętność stosowania przez kursanta prawidłowych technik pisania kodu w języku C# z zachowaniem prawideł programowania obiektowego, w tym stosowania interfejsów, enkapsulacji, dziedziczenia. Stanowiło również podstawę do zaliczenia przedmiotu na ocenę db-bdb.
 
 Niniejszy projekt jest rozwinięciem oryginalnej koncepcji bazującym na czystym Java Script i technologiach webowych.
 
-## Dodatkowe założenia:
+## Zrzuty ekranu
+
+![](./screenshot01.jpeg)
+![](./screenshot02.jpeg)
+
+## Założenia dodatkowe
 
 - Vanila JS
 - kod oparty o klasy
@@ -14,7 +28,7 @@ Niniejszy projekt jest rozwinięciem oryginalnej koncepcji bazującym na czystym
 - podstawowy interfejs użytkownika
 - zobrazowanie graficzne przebiegu symulacji
 
-## Zastosowane technologie i narzędzia:
+## Zastosowane technologie i narzędzia
 
 - HTML + CSS + JavaScript
 - [Node.js](<https://nodejs.org/>)
@@ -30,14 +44,11 @@ Do uruchomienia kodu niezbędne jest posiadanie zainstalowanego środowiska [nod
 
 -----------------------------  
 
-**Oryginalna treść zadania:**  
+**Oryginalna treść zadania**  
 
 <br>
 
 > # Gra w życie
-> 
-> ==========================
-> 
 > 
 > Gra w życie (ocena 4-5)
 > Wczytaj plansze o zmiennych rozmiarach. Zasymuluj działanie 10 tur. Wyświetl
